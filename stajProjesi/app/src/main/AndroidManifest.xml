@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.laprospekts">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+    <application
+            android:allowBackup="true"
+            android:fullBackupContent="@xml/backup_descriptor"
+            android:icon="@mipmap/icon"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/icon"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".bilgiGoster">
+        </activity>
+        <activity android:name=".isim_arama">
+        </activity>
+        <activity android:name=".giris_ekrani">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action
+                        android:name="android.intent.action.MAIN"
+                        android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".CaptureAct"
+                android:screenOrientation="fullSensor"
+                android:stateNotNeeded="true"
+                android:windowSoftInputMode="stateAlwaysHidden"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">İlaç Prospektüs</string>
+    <string name="yan_nda_ki_eczac">Yanında ki eczacı</string>
+    <string name="barkod_ile_arama">Barkod ile arama</string>
+    <string name="ila_ad_ile_arama">ilaç adı ile arama</string>
+    <string name="bu_uygulama_bilgilendirme_ama_l_d_r">Bu uygulama bilgilendirme amaçlıdır!</string>
+    <string name="doktor_kontrol_d_nda_ila_kullanmay_n_z">Doktor kontrolü dışında ilaç kullanmayınız.</string>
+    <string name="textview">TextView</string>
+    <string name="parol_20_mg">Parol 20 Mg</string>
+</resources>
